@@ -1,0 +1,28 @@
+import styled from 'styled-components';
+
+export const NavWrapper = styled.nav`
+position:fixed;
+padding:25px;
+width:100%;
+z-index:10;
+
+
+`;
+
+export const NavItemList = styled.ul`
+`;
+export const NavItems = styled.li`
+display:inline;
+color:white;
+`;
+export const NavLinks = styled.a`
+color:white;
+font-size:26px;
+cursor:pointer;
+margin:0 10px 0 10px;
+text-decoration:none;
+&:hover{
+    color:#ffac41
+}
+    
+`;
