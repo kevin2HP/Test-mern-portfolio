@@ -6,7 +6,12 @@ padding:25px;
 width:100%;
 z-index:10;
 
-
+@media screen and (max-width:1172px){
+    
+      display:none;
+    
+    
+  }
 `;
 
 export const NavItemList = styled.ul`

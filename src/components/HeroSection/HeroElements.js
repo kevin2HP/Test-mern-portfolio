@@ -6,7 +6,6 @@ export const HeroWrapper = styled.div`
     justify-content:center;
 	align-items: center;
 	height: 100vh;
-    
 
 `;
 export const HeroBG = styled.img`
@@ -14,9 +13,8 @@ export const HeroBG = styled.img`
     height:100vh;
     z-index:-1;
     width:100%;
-
     @media (max-width: 768px) {
-            width:auto;
+        object-fit: cover;
       }
 
 `;
