@@ -1,0 +1,2 @@
+*{margin:0;padding:0;font-family:"Montserrat",sans-serif}a{color:#ffac41;font-weight:bolder;text-decoration:none}a:hover{color:#fff;cursor:pointer}h3{transition:2s;animation:fadeIn;animation-duration:3s;display:inline-block;color:#eee}@keyframes fadeIn{10%{opacity:1%;transform:scale(2);color:#eee}50%{transform:scale(1.5);opacity:1%;color:#eee}to{transform:scale(1);color:#ffac41}}
+/*# sourceMappingURL=main.9618d5ea.chunk.css.map */
