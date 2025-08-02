@@ -1,4 +1,11 @@
-import React from 'react'
+import React from 'react';
+import {
+    BrowserRouter as Router,
+    Switch,
+    Route,
+    Link
+} from "react-router-dom";
+
 import {
     NavWrapper,
     NavItemList, NavItems, NavLinks
@@ -6,15 +13,16 @@ import {
 const Navbar = () => {
     return (
         <NavWrapper>
-            <NavItemList>
-                <NavItems>
-                    <NavLinks>Home</NavLinks>
-                    <NavLinks>About</NavLinks>
-                    <NavLinks>Projects</NavLinks>
-                    <NavLinks>Contact</NavLinks>
+            <Router>
+                <NavItemList>
 
-                </NavItems>
-            </NavItemList>
+                    <NavItems><NavLinks to={{ pathname: "https://github.com/kevin2HP" }} target="_blank" >Home</NavLinks> </NavItems>
+                    <NavItems><NavLinks>About</NavLinks></NavItems>
+                    <NavItems><NavLinks>Projects</NavLinks></NavItems>
+                    <NavItems><NavLinks>Contact</NavLinks></NavItems>
+
+                </NavItemList>
+            </Router>
         </NavWrapper>
     )
 }

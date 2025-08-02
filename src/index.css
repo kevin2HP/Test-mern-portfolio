@@ -5,6 +5,7 @@
 
 }
 
+
 a {
   color: #ffac41;
   font-weight: bolder;
@@ -14,4 +15,45 @@ a {
 
 a:hover {
   color: #ffff;
+  cursor: pointer;
 }
+
+h3 {
+  transition: 2s;
+  animation: fadeIn;
+  animation-duration: 3s;
+  display: inline-block;
+  color: #eee;
+
+}
+
+@keyframes fadeIn {
+  10% {
+    opacity: 1%;
+    transform: scale(2, 2);
+    color: #eee;
+    ;
+  }
+
+
+
+  50% {
+    transform: scale(1.5, 1.5);
+    opacity: 50%;
+    color: #eee;
+
+  }
+
+  100% {
+    transform: scale(1, 1);
+
+    color: #ffac41;
+
+  }
+}
+
+/* 
+h3:hover {
+  transform: scale(1.15, 1.15);
+  color: #eee;
+} */

@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { AboutWrapper, AboutText, AboutH2, AboutP, AboutImg, AboutContent, AboutImgBox } from '../AboutSection/AboutElements.js';
+import { AboutWrapper, AboutText, AboutH2, AboutP, AboutImg, AboutContent, AboutImgBox, phoneImgBox, phoneImg } from '../AboutSection/AboutElements.js';
 import cartoonFace from '../../images/webImage.png';
 import normFace from '../../images/webImage1.png';
 const AboutSection = () => {
@@ -13,6 +13,7 @@ const AboutSection = () => {
             <AboutContent>
 
                 <AboutText>
+
                     <AboutH2>ABOUT ME</AboutH2>
                     <AboutP>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                         sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.

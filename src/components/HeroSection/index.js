@@ -16,7 +16,7 @@ const HeroSection = () => {
         <HeroWrapper>
             <HeroBG src={images} />
             <HeroContent>
-                <HeroH1>NIVEK AZNEP</HeroH1>
+                <HeroH1>Kevin Penza</HeroH1>
                 <HeroH3>WEB DEVELOPER</HeroH3>
                 <HeroDate>{time}</HeroDate>
             </HeroContent>

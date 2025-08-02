@@ -23,7 +23,7 @@ const SkillSection = () => {
                     <SkillIcon src={sql}></SkillIcon>
                     <SkillIcon src={react}></SkillIcon>
 
-                    <SkillAttribute>Icons made by <a href="https://www.flaticon.com/authors/pixel-perfect" title="Pixel perfect">Pixel perfect,</a> <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></SkillAttribute>
+                    <SkillAttribute>Icons made by <a target="_blank" href="https://www.flaticon.com/authors/pixel-perfect" title="Pixel perfect">Pixel perfect,</a> <a target="_blank" href="https://www.freepik.com" title="Freepik">Freepik</a> from <a target="_blank" href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></SkillAttribute>
                 </SkillIconsBox>
             </SkillContent>
 

@@ -20,7 +20,8 @@ export const HeroBG = styled.img`
 `;
 export const HeroContent = styled.div`
     width:500px;
-text-align:center;
+    text-align:center;
+
 
 `;
 
@@ -34,9 +35,14 @@ color:#eeeeee;
 export const HeroH3 = styled.h3`
 font-family: 'Montserrat', sans-serif;
 font-size:42px;
+margin:10px;
+
 color:#ffac41
+
+
 
 `;
 
 export const HeroDate = styled.p`
+margin:10px;
 `;
